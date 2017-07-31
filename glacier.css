@@ -1,0 +1,151 @@
+/* 
+Site Navigation bar CSS
+*/
+
+nav.sitenav ul {
+        list-style: none;
+}
+nav.sitenav li {
+            display: inline-block;
+            width: 8em;
+            text-align: center;
+        }
+        
+nav.sitenav a {
+    display: block;
+    font-weight: bold;
+}
+
+nav.sitenav a:link,
+nav.sitenav a:visited,
+nav.sitenav a:hover,
+nav.sitenav a:active {
+    color: #ADFBC;
+    text-decoration: none;
+    border-bottom: thin solid transparent;
+}
+        
+nav.sitenav a:hover {
+    border-bottom: thin solid #ADFBC;
+}
+        
+nav.sitenav li.youarehere a {
+    background-color: #800000;
+    border-bottom: thin solid #ADFBC;
+}
+
+
+/* 
+General body and index
+*/
+
+
+body {
+	margin-left: 10%;
+	margin-top: 1em;
+	margin-right: 10%;
+	background: #ABCDEF;
+	font-family: Calibri,Arial,sans-serif;
+}
+h1 {
+	font-family: Calibri,Arial, sans-serif;
+	color: #333;
+	border-bottom: thin dotted black;
+}
+ul.gallery { 
+	list-style: none; 
+	padding: 0; 
+	margin: 0;
+    
+}
+ul.gallery li {
+
+    margin-left: 10%;
+	font-size: 1.25em;
+	float: left;
+	text-align: center;
+	margin: 10px; 
+	padding: 10px;
+}
+ul.gallery li img { border: none; }
+
+a:link,a:visited {text-decoration: none; color: blue; }
+a:hover { text-decoration: underline; }
+a:active { border: none; text-decoration: none; }
+
+
+/* 
+Colorobox CSS
+*/
+#cboxOverlay{background:#fff;}
+#colorbox{outline:0;}
+    #cboxContent{margin-top: overflow:visible; background:#000;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{background:#000; padding:1px; border: 5px solid #000000;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+        #cboxLoadingOverlay{background:#000;}
+        #cboxTitle{position:absolute; top:-22px; left:0; color:#000;}
+        #cboxCurrent{position:absolute; top:-22px; right:205px; text-indent:-9999px;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+        .cboxSlideshow_on #cboxPrevious, .cboxSlideshow_off #cboxPrevious{right:66px;}
+        .cboxSlideshow_on #cboxSlideshow{background-position:-75px -25px; right:44px;}
+        .cboxSlideshow_on #cboxSlideshow:hover{background-position:-100px -25px;}
+        .cboxSlideshow_off #cboxSlideshow{background-position:-100px 0px; right:44px;}
+        .cboxSlideshow_off #cboxSlideshow:hover{background-position:-75px -25px;}
+
+/* 
+Quiz.html CSS
+*/
+
+
+.answers li { 
+	list-style: upper-alpha; 
+}    
+
+label { 
+	margin-left: 0.5em; 
+	cursor: pointer; 
+}    
+
+#results { 
+	background: #dddada; 
+	color: 000000; 
+	padding: 3px; 
+	text-align: center; 
+	width: 200px; 
+	cursor: pointer; 
+	border: 1px solid gray; 
+}
+
+#results:hover { 
+	background: #3d91b8; 
+	color: #ffffff; 
+	padding: 3px; 
+	text-align: center; 
+	width: 200px; 
+	cursor: pointer; 
+	border: 1px solid gray; 
+}  
+
+#categorylist { 
+	margin-top: 6px; 
+	display: none; 
+}    
+
+#category1, #category2, #category3, #category4, #category5,#category6, #category7, #category8, #category9, #category10,#category11, #category12, #category13, #category14, #category15,#category16, #category17, #category18, #category19, #category20, #category21 { 
+	display: none; 
+}
+
+#closing {
+	display: none;
+	font-style: italic;
+}
+
+

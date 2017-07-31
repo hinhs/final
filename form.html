@@ -1,0 +1,57 @@
+
+<!-- this is the markup document that should contains a form
+     that represents the choices available on the 
+     Dado Tea Lunch Special paper form -->
+     
+<!-- remember to use action="http://cscis12.dce.harvard.edu/echo" for the form element -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Amino Acid Quiz</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="quiz.js"></script>
+	</head>
+    
+    
+    
+    <body>
+        <h1>Amino Acid Quiz</h1>
+        <p>Identify the amino acid by filling in the blank with the correct answer</p>
+            <p class="question">1. What is the answer to this question?</p>        
+
+        <ul class="answers">            
+        <input type="text" name="q1" value="" id="q1a"><label for="q1a"></label><br/>              
+        </ul>        
+
+
+        <p class="question">2. What is the answer to this question?</p>        
+
+        <ul class="answers">            
+            <input type="text" name="q2" value="" id="q2a"><label for="q2a"></label><br/>         
+        </ul>            
+
+        <br/>
+            
+        <input id="results" type="submit" name="Submit" value="Submit"/>
+           
+
+        <div id="category1">            
+        <p>              
+        <strong>Question 1:</strong> The correct answer is the <strong>Valine</strong>.</p>        
+        </div>        
+
+        <div id="category2">            
+        <p>              
+        <strong>Question 2:</strong> The correct answer is <strong>Alanine</strong>.</p>        
+        </div>        
+    
+
+        <div id="category11">            
+        <p>                
+        You answered them all right!</p>        
+        </div>
+    </body>
+</html>

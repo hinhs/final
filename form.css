@@ -1,0 +1,30 @@
+/* CSS Rules for the Dado Tea Lunch Special Form */
+
+
+body{
+    font-family: courier;
+    
+}
+
+h1{
+    color: #FFA500;
+}
+
+legend{
+    color: #FFA500;
+}
+
+fieldset{
+    border-color: #006400;
+    margin-bottom: 2.5%
+}
+    
+input#placeorder{
+    background-color: #FFA500;
+    color: #006400	;
+    border-color: #006400;
+}
+
+p{
+    color: #006400; 
+}
